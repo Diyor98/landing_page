@@ -201,9 +201,10 @@ footer {
     width: 100%;
   }
   #newsletter form input[type="email"],
-  .quote input,
-  .quote textarea {
+  aside#sidebar .quote input,
+  aside#sidebar .quote textarea {
     width: 100%;
     margin-bottom: 5px;
+    box-sizing: border-box;
   }
 }
